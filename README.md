@@ -22,7 +22,13 @@ Projenin ana fikri, basit bir şekilde **"drone ile otel sahillerinde teslimat"*
 ### 1. Prototip Üretim
 
 1.1 Drone
+
+    
+
 1.2 Teslimat Ünitesi
+
+    
+
 1.3 Test
 
     Bu raporda bahsedilen tüm bu teknik geliştirmelerin test edilmesi çok önemlidir. Bunun için test alanı, test uzmanı (test alanında tecrübeli) kişi ve bolca zaman gerekmektedir.
