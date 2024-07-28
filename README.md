@@ -21,19 +21,19 @@ Projenin ana fikri, basit bir şekilde **"drone ile otel sahillerinde teslimat"*
 
 ### 1. Prototip Üretim
 
-1.1 Drone
+1.1 **Drone**
 
     
 
-1.2 Teslimat Ünitesi
+1.2 **Teslimat Ünitesi**
 
     
 
-1.3 Test
+1.3 **Test**
 
     Bu raporda bahsedilen tüm bu teknik geliştirmelerin test edilmesi çok önemlidir. Bunun için test alanı, test uzmanı (test alanında tecrübeli) kişi ve bolca zaman gerekmektedir.
 
-1.4 Kritikler
+1.4 **Kritikler**
 
     Müşteri ürünü sipariş ettiğinde Drone GPS ile müşterinin yakınına gelebilir ancak GPS sinyalleri her zaman tam nokta belirtmez. Bu yüzden drone'un müşteriyi bulması gerekir. Bu noktada birkaç çözüm önerisi var:
 
