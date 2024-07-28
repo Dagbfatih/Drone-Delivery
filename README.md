@@ -10,23 +10,14 @@ Projenin ana fikri, basit bir şekilde **"drone ile otel sahillerinde teslimat"*
 ## Başlıklar
 1. **Pazarlama**
 2. **Seri Üretim**
-3. **Bakım**
+3. **Satış Sonrası Servis**
 4. **Drone İmalatı**
 5. **Yazılım**
-6. **Teknik Problem**
+6. **Teknik Problemler**
 7. **Test**
 8. **Projenin gelecekteki seyri**
 
-
-Bu alanları kendi başlıkları altında birer birer incelemeden önce ilerde lazım olabilecek bazı kavramlarının sunumu yapılmalıdır.
-
-## Kavramlar
-- **Fiyat Segmentasyonu:** Müşteriler veya ürünlerin alım gücü ve ücretlendirme kapsamında gruplara ayrılması
-- - Yüksek, Orta, Düşük şeklinde 3 grupta incelenecektir.
-- **Müşteri Segmentasyonu:** Müşterilerin alım gücüne göre gruplara ayrılması
-- - Yüksek, Orta, Düşük (Zenginden fakire) şeklinde 3 grupta incelenecektir.
-
-### 1. Pazarlama: Otel Yönetimi
+### 1. Pazarlama
 Türkiye'de birçok otel bulunmakta ve her biri farklı müşteri segmentine hitap etmektedir ve hitap ettikleri müşteri segmentine göre otellerde birbirinden fiyat segmentlerine göre ayrılmaktadır.
 
 Bu projenin yazılım platformu ve drone'larının tam hazır olduğu varsayılırsa ilk müşterimiz otel yönetimleri olacaktır. Bizim bu otel yönetimlerinden hangi segmentasyonu hedefleyeceğimiz ise kritik bir önem taşımaktadır. Bunu daha kolay anlaşılması için otel yönetimlerinin gözünden incelemekte fayda var:
@@ -47,19 +38,19 @@ Bu projenin yazılım platformu ve drone'larının tam hazır olduğu varsayıl�
 
 
 
-### 2. Pazarlama: Seri Üretim
+### 2. Seri Üretim
 Bu projenin bize getireceği ikinci önemli sorumluluk ise tıpkı bir drone satıcısı gibi drone'ları pazarlayacağımız gerçeği. Bu projeyi sadece bir **"proje"** olarak değil aynı zamanda drone tacirliği gibi de ele almak gerekir. Projenin fikrini ayrı, drone'ların kendilerini ayrı pazarlamak gerekecektir. Seri üretimle birlikle çok önemli bir **bakım hizmeti** de sunulması gerekir ve bu başlı başına ayrı bir iş bölümü ihtiyacı anlamına geliyor.
 
-### 3. Bakım: Droneların Bakımı
+### 3. Satış Sonrası Servis
 Drone'ların seri üretimden çıkıp satıldıktan sonra devamlı bakım ve onarımlarının yapılması gerekir. Bu noktada ciddi bir yatırım ve iş bölümü daha açılması gerekir.
 
-### 4. Drone İmalatı: Drone Nasıl İmal Edilecek?
+### 4. Drone İmalatı
 Projede kullanılacak drone'ları 3. parti bir satıcıdan mı alacağız yoksa kendimiz mi üreteceğiz? Bu konunun ayrıntılı konuşulması gerekmektedir.
 
-### 5. Teknik Yazılım: Dağıtım Ağı Platformu
+### 5. Yazılım
 Müşterilerin sipariş etmesi, drone'lara emir gitmesi, siparişin teslim edilmesi, iade, müşteri hizmetleri gibi süreçleri yönetmek ve müşteriye kolaylık sağlamak için **Getir**, **Yemeksepeti** gibi bir platform geliştirilecektir. Bu platformun sürdürülebilir olması, ölçeklendirmeye uygun olması için backend tarafında kullanılacak mimarinin kapsamlı bir değerlendirmeden sonra seçilmesi gerekmektedir.
 
-### 6. Teknik Problem: Drone'ların Müşterinin Tam Yanına Gelmesi
+### 6. Teknik Problemler
 Müşteri ürünü sipariş ettiğinde Drone GPS ile müşterinin yakınına gelebilir ancak GPS sinyalleri her zaman tam nokta belirtmez. Bu yüzden drone'un müşteriyi bulması gerekir. Bu noktada birkaç çözüm önerisi var:
 
 - Drone, müşteri tarafından telefonundaki platform aracılığıyla kontrol edilebilir.
@@ -75,5 +66,7 @@ Drone'ların dağıtım esnasında şarj olacakları ve siparişleri alacakları
 - Drone'ların otomatik pisti tanımaları ve giriş yapıp park etmeleri gerekir
 - Drone'lar pistten güvenle otomatik çıkış yapıp müşteriye gitmelidir
 
-### 8. Test: Drone'ların Testi ve Test İçin Alan
+### 8. Test
 Bu raporda bahsedilen tüm bu teknik geliştirmelerin test edilmesi çok önemlidir. Bunun için test alanı, test uzmanı (test alanında tecrübeli) kişi ve bolca zaman gerekmektedir.
+
+### 9. Projenin Gelecekteki Seyri
