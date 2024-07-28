@@ -43,9 +43,11 @@ Projenin ana fikri, basit bir şekilde **"drone ile otel sahillerinde teslimat"*
     Bu noktada birkaç çözüm önerisi var:
 
     - Drone, müşterinin telefonundaki uygulama aracılığıyla manuel olarak müşteri
-     tarafından yönlendirilerek teslimat sağlanabilir.
+    tarafından yönlendirilerek teslimat sağlanabilir.
     - Drone, yapay zeka ile müşterinin yüzünü tanıyarak ürün teslimatını yapabilir
-    - Drone, müşteriye otel girişinde verilecek bilekliklerde bulunan bir sensör sayesinde müşteriyi bulabilir
+    - Drone, müşteriye otel girişinde verilecek bilekliklerde bulunan bir sensör 
+    sayesinde müşteriyi bulabilir ( bunun en büyük dezavantajı otel dışında kullanıma
+    uygun olmamasıdır )
 
     Drone'ların dağıtım esnasında şarj olacakları ve siparişleri alacakları bir pistinin
      olması gerekmektedir. 
