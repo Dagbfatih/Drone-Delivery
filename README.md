@@ -122,3 +122,5 @@ Seri üretimle birlikle **bakım hizmeti**, başlı başına ayrı bir **"iş b�
 1. Proje, doğası gereği drone'ları tam hakimiyet ile yönetebilmeyi gerektirmektedir. Bu beceriye sahip bir işletme ise yeni sahillere açılabilme ve işi büyütebilme avantajına sahiptir. Sadece Türkiye'de bir sürü sahil bulunmakta ve bu da bir sürü müşteri anlamına gelmektedir.
 
 2. Drone'lar, başarılı ve uzun süre süren testler sonucunda şehir içi teslimat için de kullanılabilir hale gelecektir. Proje, ileride bu yönde de genişleme gösterebilecek bir potansiyele sahiptir. Zaten bu projenin asıl hedefi şehirlerde drone ile teslimatı Türkiye'de kelimenin tam anlamıyla **"gerçekleştirmektir"**.
+
+3. Drone'lara yapay zeka entegre etmek ise ayrı bir hedef. Elon Musk'ın Tesla araçlarını tamamen otonom hale getirebilmek için $${\color{red}3 milyar kilometre}$$ test sürüşü verisi topladığını biliyoruz. Benzer şekilde global bir etki yaratabilmek ve tüm dünya'ya projemizi yayabilmek adına hem testler hem de tam kullanım esnasında yapay zeka modellerini eğitmek için veri toplamak ise asıl hedeflerimden bir tanesi.
