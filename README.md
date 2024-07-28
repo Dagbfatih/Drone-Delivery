@@ -66,7 +66,7 @@ Müşterilerin ürün siparişi vermeleri, drone'lara emir gitmesi, siparişin t
 
 ### 3. Üretim
 Projede kullanılacak drone'ları 3. parti bir satıcıdan mı alacağız yoksa kendimiz mi üreteceğiz? Bu konunun ayrıntılı konuşulması gerekmektedir.
-
+Teslimat ünitesi ise ayrı bir konu
 ---
 
 ### 4. Pazarlama
