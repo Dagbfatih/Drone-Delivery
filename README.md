@@ -8,13 +8,16 @@ birçok proje mevcut. Bu projelerin birçoğu şehir içinde kargo, yemek, içec
 Projenin ana fikri, basit bir şekilde **"drone ile otel sahillerinde teslimat"** şeklinde açıklanabilir. Otel sahillerinde müşterilerin gıda taleplerini karşılayan büfe, market tarzı noktalar bulunur. Müşteriler sahilde eşyalarının olduğu yerden bu noktalara yürüyerek gider gelirler. Eğer bir drone ile dağıtım merkezi olsaydı ve ürünler büfeden müşterilerin şezlongta yattığı yere kadar teslim edilebilseydi bu gerçekten tatil konforunu ikiye katlardı diye düşünüyorum.
 
 ## Başlıklar
-1. **Pazarlama**
-2. **Üretim**
-3. **Satış Sonrası Servis**
-4. **Yazılım**
-5. **Teknik Problemler**
-6. **Test**
-7. **Projenin gelecekteki seyri**
+1. **Prototip Üretim**
+        - Drone
+        - Teslimat Ünitesi
+        - Kritikler
+        - Test
+2. **Yazılım**
+3. **Üretim**
+4. **Pazarlama**
+5. **Satış Sonrası Servis**
+6. **Projenin gelecekteki seyri**
 
 ### 1. Pazarlama
 Türkiye'de birçok otel bulunmakta ve her biri farklı müşteri segmentine hitap etmektedir ve hitap ettikleri müşteri segmentine göre otellerde birbirinden fiyat segmentlerine göre ayrılmaktadır.
