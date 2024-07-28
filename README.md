@@ -9,10 +9,10 @@ Projenin ana fikri, basit bir şekilde **"drone ile otel sahillerinde teslimat"*
 
 ## Başlıklar
 1. **Prototip Üretim**
-        - Drone
-        - Teslimat Ünitesi
-        - Kritikler
-        - Test
+        1. Drone
+        2. Teslimat Ünitesi
+        3. Kritikler
+        4. Test
 2. **Yazılım**
 3. **Üretim**
 4. **Pazarlama**
