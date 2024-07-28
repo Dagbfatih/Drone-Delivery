@@ -49,14 +49,13 @@ Projenin ana fikri, basit bir şekilde **"drone ile otel sahillerinde teslimat"*
     sayesinde müşteriyi bulabilir ( bunun en büyük dezavantajı otel dışında kullanıma
     uygun olmamasıdır )
 
-    Drone'ların dağıtım esnasında şarj olacakları ve siparişleri alacakları bir pistinin
-     olması gerekmektedir. 
+    Drone'ların şarj olacakları ve siparişleri teslim alabilecekleri bir pist alanına
+    ihtiyaç duyulacaktır. 
 
     - Pist, yağmur, rüzgar, kar gibi etkenlere karşı korunaklı olmalıdır
-    - Pist, büfe'deki çalışanların kolaylıkla ulaşabileceği yakınlıkta olmalıdır (Bu, müşteri yoğunluğunun çok     olduğu dönemlerde oldukça önem arz edecektir)
+    - Pist, büfe'deki çalışanların kolaylıkla ulaşabileceği yakınlıkta olmalıdır (Bu, müşteri yoğunluğunun çok olduğu dönemlerde oldukça önem arz edecektir)
     - Pist, şarj istasyonlarına uygun tasarlanmalıdır
-    - Drone'ların otomatik pisti tanımaları ve giriş yapıp park etmeleri gerekir
-    - Drone'lar pistten güvenle otomatik çıkış yapıp müşteriye gitmelidir
+    - Drone'lar otonom olarak pisti bulabilmeli ve otonoö şekilde piste iniş kalkış yapabilmelidir
 
 ---
 
