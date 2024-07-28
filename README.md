@@ -24,22 +24,24 @@ Projenin ana fikri, basit bir şekilde **"drone ile otel sahillerinde teslimat"*
 1.1 Drone
 1.2 Teslimat Ünitesi
 1.3 Test
+
     Bu raporda bahsedilen tüm bu teknik geliştirmelerin test edilmesi çok önemlidir. Bunun için test alanı, test uzmanı (test alanında tecrübeli) kişi ve bolca zaman gerekmektedir.
 
 1.4 Kritikler
+
     Müşteri ürünü sipariş ettiğinde Drone GPS ile müşterinin yakınına gelebilir ancak GPS sinyalleri her zaman tam nokta belirtmez. Bu yüzden drone'un müşteriyi bulması gerekir. Bu noktada birkaç çözüm önerisi var:
 
-- Drone, müşteri tarafından telefonundaki platform aracılığıyla kontrol edilebilir.
-- Drone, yapay zeka ile müşterinin yüzünü tanıyabilir (Diplomasik sorunlara neden olabilir)
-- Drone, müşteriye otel girişinde verilecek bilekliklerde bulunan bir sensör sayesinde müşteriyi bulabilir
+    - Drone, müşteri tarafından telefonundaki platform aracılığıyla kontrol edilebilir.
+    - Drone, yapay zeka ile müşterinin yüzünü tanıyabilir (Diplomasik sorunlara neden olabilir)
+    - Drone, müşteriye otel girişinde verilecek bilekliklerde bulunan bir sensör sayesinde müşteriyi bulabilir
 
-Drone'ların dağıtım esnasında şarj olacakları ve siparişleri alacakları bir pistinin olması gerekmektedir. 
+    Drone'ların dağıtım esnasında şarj olacakları ve siparişleri alacakları bir pistinin olması gerekmektedir. 
 
-- Pist, yağmur, rüzgar, kar gibi etkenlere karşı korunaklı olmalıdır
-- Pist, büfe'deki çalışanların kolaylıkla ulaşabileceği yakınlıkta olmalıdır (Bu, müşteri yoğunluğunun çok     olduğu dönemlerde oldukça önem arz edecektir)
-- Pist, şarj istasyonlarına uygun tasarlanmalıdır
-- Drone'ların otomatik pisti tanımaları ve giriş yapıp park etmeleri gerekir
-- Drone'lar pistten güvenle otomatik çıkış yapıp müşteriye gitmelidir
+    - Pist, yağmur, rüzgar, kar gibi etkenlere karşı korunaklı olmalıdır
+    - Pist, büfe'deki çalışanların kolaylıkla ulaşabileceği yakınlıkta olmalıdır (Bu, müşteri yoğunluğunun çok     olduğu dönemlerde oldukça önem arz edecektir)
+    - Pist, şarj istasyonlarına uygun tasarlanmalıdır
+    - Drone'ların otomatik pisti tanımaları ve giriş yapıp park etmeleri gerekir
+    - Drone'lar pistten güvenle otomatik çıkış yapıp müşteriye gitmelidir
 
 ### 2. Yazılım
 Müşterilerin sipariş etmesi, drone'lara emir gitmesi, siparişin teslim edilmesi, iade, müşteri hizmetleri gibi süreçleri yönetmek ve müşteriye kolaylık sağlamak için **Getir**, **Yemeksepeti** gibi bir platform geliştirilecektir. Bu platformun sürdürülebilir olması, ölçeklendirmeye uygun olması için backend tarafında kullanılacak mimarinin kapsamlı bir değerlendirmeden sonra seçilmesi gerekmektedir.
