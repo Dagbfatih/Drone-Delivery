@@ -1,4 +1,4 @@
-# Otellerde Drone ile Teslimat Projesi
+# Sahillerde Drone ile Teslimat Projesi
 
 ## Giriş
 Günümüzde drone'lar ile yapılan ve bazı ülkelerde testleri halen sürmekte olan
