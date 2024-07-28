@@ -60,7 +60,7 @@ Projenin ana fikri, basit bir şekilde **"drone ile otel sahillerinde teslimat"*
 ---
 
 ### 2. Yazılım
-Müşterilerin sipariş etmesi, drone'lara emir gitmesi, siparişin teslim edilmesi, iade, müşteri hizmetleri gibi süreçleri yönetmek ve müşteriye kolaylık sağlamak için **Getir**, **Yemeksepeti** gibi bir platform geliştirilecektir. Bu platformun sürdürülebilir olması, ölçeklendirmeye uygun olması için backend tarafında kullanılacak mimarinin kapsamlı bir değerlendirmeden sonra seçilmesi gerekmektedir.
+Müşterilerin ürün siparişi vermeleri, drone'lara emir gitmesi, siparişin teslim edilmesi, iade, müşteri hizmetleri gibi süreçleri yönetmek ve müşteriye kolaylık sağlamak için **Getir**, **Yemeksepeti** gibi bir platform geliştirilecektir. Bu platformun sürdürülebilir olması, ölçeklendirmeye uygun olması için backend tarafında kullanılacak mimarinin kapsamlı bir değerlendirmeden sonra seçilmesi gerekmektedir.
 
 ---
 
