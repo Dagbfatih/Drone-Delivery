@@ -55,12 +55,18 @@ Projenin ana fikri, basit bir şekilde **"drone ile otel sahillerinde teslimat"*
     - Drone'ların otomatik pisti tanımaları ve giriş yapıp park etmeleri gerekir
     - Drone'lar pistten güvenle otomatik çıkış yapıp müşteriye gitmelidir
 
+---
+
 ### 2. Yazılım
 Müşterilerin sipariş etmesi, drone'lara emir gitmesi, siparişin teslim edilmesi, iade, müşteri hizmetleri gibi süreçleri yönetmek ve müşteriye kolaylık sağlamak için **Getir**, **Yemeksepeti** gibi bir platform geliştirilecektir. Bu platformun sürdürülebilir olması, ölçeklendirmeye uygun olması için backend tarafında kullanılacak mimarinin kapsamlı bir değerlendirmeden sonra seçilmesi gerekmektedir.
+
+---
 
 ### 3. Üretim
 Bu projenin bize getireceği ikinci önemli sorumluluk ise tıpkı bir drone satıcısı gibi drone'ları pazarlayacağımız gerçeği. Bu projeyi sadece bir **"proje"** olarak değil aynı zamanda drone tacirliği gibi de ele almak gerekir. Projenin fikrini ayrı, drone'ların kendilerini ayrı pazarlamak gerekecektir. Seri üretimle birlikle çok önemli bir **bakım hizmeti** de sunulması gerekir ve bu başlı başına ayrı bir iş bölümü ihtiyacı anlamına geliyor.
 Projede kullanılacak drone'ları 3. parti bir satıcıdan mı alacağız yoksa kendimiz mi üreteceğiz? Bu konunun ayrıntılı konuşulması gerekmektedir.
+
+---
 
 ### 4. Pazarlama
 Türkiye'de birçok otel bulunmakta ve her biri farklı müşteri segmentine hitap etmektedir ve hitap ettikleri müşteri segmentine göre otellerde birbirinden fiyat segmentlerine göre ayrılmaktadır.
@@ -81,11 +87,11 @@ Bu projenin yazılım platformu ve drone'larının tam hazır olduğu varsayıl�
         Bu durumda drone'un sahillerde kullanılması bir ücretlendirmeye tâbi tutulacağından drone'ların 
         kullanım oranlarının yüksek olması için müşteri segmentinin yüksek olması gerekir.
 
-
+---
 
 ### 5. Satış Sonrası Servis
 Drone'ların seri üretimden çıkıp satıldıktan sonra devamlı bakım ve onarımlarının yapılması gerekir. Bu noktada ciddi bir yatırım ve iş bölümü daha açılması gerekir.
 
-
+---
 
 ### 6. Projenin Gelecekteki Seyri
