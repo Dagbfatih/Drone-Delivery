@@ -12,11 +12,10 @@ Projenin ana fikri, basit bir şekilde **"drone ile otel sahillerinde teslimat"*
 2. **Seri Üretim**
 3. **Bakım**
 4. **Drone İmalatı**
-5. **Teknik Yazılım**
+5. **Yazılım**
 6. **Teknik Problem**
-7. **Teknik Problem**
-8. **Test**
-9. **Projenin gelecekteki seyri**
+7. **Test**
+8. **Projenin gelecekteki seyri**
 
 
 Bu alanları kendi başlıkları altında birer birer incelemeden önce ilerde lazım olabilecek bazı kavramlarının sunumu yapılmalıdır.
