@@ -80,8 +80,6 @@ Bu projenin yazılım platformu ve drone'larının tam hazır olduğu varsayıl�
         Otel yönetimi, projeyi bir reklam aracı olarak görüp kullanmak isteyebilir. bu durumda hem drone 
         sistemininin otele entegre edilmesi, bakımı gibi ücretleri karşılayıp hem de bunları kâra dönüştürmesi
         gereken otel müşteri çekmek için bu projeyi reklam aracı olarak kullanabilir. 
-        Bu durumda drone'ların yoğun kullanılmasından çok reklam amacı gütmesi bizim açımızdan
-        çok fark yaratır.
 
 1.2 **Otel Yönetimlerine Göre Projenin Kâr Etme Kapasitesi**
 
