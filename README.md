@@ -42,7 +42,7 @@ Projenin ana fikri, basit bir şekilde **"drone ile otel sahillerinde teslimat"*
     sinyalleri her zaman tam nokta belirtmez. Bu yüzden drone'un müşteriyi bulması gerekir. 
     Bu noktada birkaç çözüm önerisi var:
 
-    - Drone, müşteri tarafından telefonundaki platform aracılığıyla kontrol edilebilir.
+    - Drone, müşterinin telefonundaki uygulama aracılığıyla manuel olarak müşteri tarafından yönlendirilerek teslimat sağlanabilir.
     - Drone, yapay zeka ile müşterinin yüzünü tanıyabilir (Diplomasik sorunlara neden olabilir)
     - Drone, müşteriye otel girişinde verilecek bilekliklerde bulunan bir sensör sayesinde müşteriyi bulabilir
 
