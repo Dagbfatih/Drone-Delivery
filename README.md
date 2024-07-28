@@ -75,7 +75,7 @@ Türkiye'de birçok otel bulunmakta ve her biri farklı müşteri segmentine hit
 
 Bu projenin yazılım platformu ve drone'larının tam hazır olduğu varsayılırsa ilk müşterimiz otel yönetimleri olacaktır. Bizim bu otel yönetimlerinden hangi segmentasyonu hedefleyeceğimiz ise kritik bir önem taşımaktadır. Bunu daha kolay anlaşılması için otel yönetimlerinin gözünden incelemekte fayda var:
 
-1.1 **Otel Yönetimlerine Göre Projenin Reklam Kapasitesi**
+1.1 **Projenin Yeni Müşteriler Kazandırma Potansiyeli**
 
         Otel yönetimi, projeyi bir reklam aracı olarak görüp kullanmak isteyebilir. bu durumda hem drone 
         sistemininin otele entegre edilmesi, bakımı gibi ücretleri karşılayıp hem de bunları kâra dönüştürmesi
