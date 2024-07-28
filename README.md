@@ -81,7 +81,7 @@ Bu projenin yazılım platformu ve drone'larının tam hazır olduğu varsayıl�
         sistemininin otele entegre edilmesi, bakımı gibi ücretleri karşılayıp hem de bunları kâra dönüştürmesi
         gereken otel müşteri çekmek için bu projeyi reklam aracı olarak kullanabilir. 
 
-1.2 **Projenin Otel Satışlarını ve Karlılığı Artırma Kapasitesi**
+1.2 **Projenin Otel Satışlarını ve Karlılığını Artırma Kapasitesi**
 
         Otel yönetimi, projeyi kar elde etme aracı olarak görebilir ve yatırımını titizlikle yapar.
         Bu durumda drone'un sahillerde kullanılması bir ücretlendirmeye tâbi tutulacağından drone'ların 
