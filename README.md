@@ -11,15 +11,42 @@ Projenin ana fikri, basit bir şekilde **"drone ile otel sahillerinde teslimat"*
 1. **Prototip Üretim**
     * Drone
     * Teslimat Ünitesi
-    * Kritikler
     * Test
+    * Kritikler
 2. **Yazılım**
 3. **Üretim**
 4. **Pazarlama**
 5. **Satış Sonrası Servis**
 6. **Projenin gelecekteki seyri**
 
-### 1. Pazarlama
+### 1. Prototip Üretim
+
+1.1 Drone
+1.2 Teslimat Ünitesi
+1.3 Test
+1.4 Kritikler
+    Müşteri ürünü sipariş ettiğinde Drone GPS ile müşterinin yakınına gelebilir ancak GPS sinyalleri her zaman tam nokta belirtmez. Bu yüzden drone'un müşteriyi bulması gerekir. Bu noktada birkaç çözüm önerisi var:
+
+- Drone, müşteri tarafından telefonundaki platform aracılığıyla kontrol edilebilir.
+- Drone, yapay zeka ile müşterinin yüzünü tanıyabilir (Diplomasik sorunlara neden olabilir)
+- Drone, müşteriye otel girişinde verilecek bilekliklerde bulunan bir sensör sayesinde müşteriyi bulabilir
+
+Drone'ların dağıtım esnasında şarj olacakları ve siparişleri alacakları bir pistinin olması gerekmektedir. 
+
+- Pist, yağmur, rüzgar, kar gibi etkenlere karşı korunaklı olmalıdır
+- Pist, büfe'deki çalışanların kolaylıkla ulaşabileceği yakınlıkta olmalıdır (Bu, müşteri yoğunluğunun çok     olduğu dönemlerde oldukça önem arz edecektir)
+- Pist, şarj istasyonlarına uygun tasarlanmalıdır
+- Drone'ların otomatik pisti tanımaları ve giriş yapıp park etmeleri gerekir
+- Drone'lar pistten güvenle otomatik çıkış yapıp müşteriye gitmelidir
+
+### 2. Yazılım
+Müşterilerin sipariş etmesi, drone'lara emir gitmesi, siparişin teslim edilmesi, iade, müşteri hizmetleri gibi süreçleri yönetmek ve müşteriye kolaylık sağlamak için **Getir**, **Yemeksepeti** gibi bir platform geliştirilecektir. Bu platformun sürdürülebilir olması, ölçeklendirmeye uygun olması için backend tarafında kullanılacak mimarinin kapsamlı bir değerlendirmeden sonra seçilmesi gerekmektedir.
+
+### 3. Üretim
+Bu projenin bize getireceği ikinci önemli sorumluluk ise tıpkı bir drone satıcısı gibi drone'ları pazarlayacağımız gerçeği. Bu projeyi sadece bir **"proje"** olarak değil aynı zamanda drone tacirliği gibi de ele almak gerekir. Projenin fikrini ayrı, drone'ların kendilerini ayrı pazarlamak gerekecektir. Seri üretimle birlikle çok önemli bir **bakım hizmeti** de sunulması gerekir ve bu başlı başına ayrı bir iş bölümü ihtiyacı anlamına geliyor.
+Projede kullanılacak drone'ları 3. parti bir satıcıdan mı alacağız yoksa kendimiz mi üreteceğiz? Bu konunun ayrıntılı konuşulması gerekmektedir.
+
+### 4. Pazarlama
 Türkiye'de birçok otel bulunmakta ve her biri farklı müşteri segmentine hitap etmektedir ve hitap ettikleri müşteri segmentine göre otellerde birbirinden fiyat segmentlerine göre ayrılmaktadır.
 
 Bu projenin yazılım platformu ve drone'larının tam hazır olduğu varsayılırsa ilk müşterimiz otel yönetimleri olacaktır. Bizim bu otel yönetimlerinden hangi segmentasyonu hedefleyeceğimiz ise kritik bir önem taşımaktadır. Bunu daha kolay anlaşılması için otel yönetimlerinin gözünden incelemekte fayda var:
@@ -40,30 +67,10 @@ Bu projenin yazılım platformu ve drone'larının tam hazır olduğu varsayıl�
 
 
 
-### 2. Üretim
-Bu projenin bize getireceği ikinci önemli sorumluluk ise tıpkı bir drone satıcısı gibi drone'ları pazarlayacağımız gerçeği. Bu projeyi sadece bir **"proje"** olarak değil aynı zamanda drone tacirliği gibi de ele almak gerekir. Projenin fikrini ayrı, drone'ların kendilerini ayrı pazarlamak gerekecektir. Seri üretimle birlikle çok önemli bir **bakım hizmeti** de sunulması gerekir ve bu başlı başına ayrı bir iş bölümü ihtiyacı anlamına geliyor.
-Projede kullanılacak drone'ları 3. parti bir satıcıdan mı alacağız yoksa kendimiz mi üreteceğiz? Bu konunun ayrıntılı konuşulması gerekmektedir.
-
-### 3. Satış Sonrası Servis
+### 5. Satış Sonrası Servis
 Drone'ların seri üretimden çıkıp satıldıktan sonra devamlı bakım ve onarımlarının yapılması gerekir. Bu noktada ciddi bir yatırım ve iş bölümü daha açılması gerekir.
 
-### 4. Yazılım
-Müşterilerin sipariş etmesi, drone'lara emir gitmesi, siparişin teslim edilmesi, iade, müşteri hizmetleri gibi süreçleri yönetmek ve müşteriye kolaylık sağlamak için **Getir**, **Yemeksepeti** gibi bir platform geliştirilecektir. Bu platformun sürdürülebilir olması, ölçeklendirmeye uygun olması için backend tarafında kullanılacak mimarinin kapsamlı bir değerlendirmeden sonra seçilmesi gerekmektedir.
 
-### 5. Teknik Problemler
-Müşteri ürünü sipariş ettiğinde Drone GPS ile müşterinin yakınına gelebilir ancak GPS sinyalleri her zaman tam nokta belirtmez. Bu yüzden drone'un müşteriyi bulması gerekir. Bu noktada birkaç çözüm önerisi var:
-
-- Drone, müşteri tarafından telefonundaki platform aracılığıyla kontrol edilebilir.
-- Drone, yapay zeka ile müşterinin yüzünü tanıyabilir (Diplomasik sorunlara neden olabilir)
-- Drone, müşteriye otel girişinde verilecek bilekliklerde bulunan bir sensör sayesinde müşteriyi bulabilir
-
-Drone'ların dağıtım esnasında şarj olacakları ve siparişleri alacakları bir pistinin olması gerekmektedir. 
-
-- Pist, yağmur, rüzgar, kar gibi etkenlere karşı korunaklı olmalıdır
-- Pist, büfe'deki çalışanların kolaylıkla ulaşabileceği yakınlıkta olmalıdır (Bu, müşteri yoğunluğunun çok     olduğu dönemlerde oldukça önem arz edecektir)
-- Pist, şarj istasyonlarına uygun tasarlanmalıdır
-- Drone'ların otomatik pisti tanımaları ve giriş yapıp park etmeleri gerekir
-- Drone'lar pistten güvenle otomatik çıkış yapıp müşteriye gitmelidir
 
 ### 6. Test
 Bu raporda bahsedilen tüm bu teknik geliştirmelerin test edilmesi çok önemlidir. Bunun için test alanı, test uzmanı (test alanında tecrübeli) kişi ve bolca zaman gerekmektedir.
