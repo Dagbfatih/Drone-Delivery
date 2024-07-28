@@ -67,6 +67,7 @@ Müşterilerin ürün siparişi vermeleri, drone'lara emir gitmesi, siparişin t
 ### 3. Üretim
 Projede kullanılacak drone'ları 3. parti bir satıcıdan mı alacağız yoksa kendimiz mi üreteceğiz? Bu konunun ayrıntılı konuşulması gerekmektedir.
 Teslimat ünitesi ise ayrı bir konu
+
 ---
 
 ### 4. Pazarlama
@@ -94,6 +95,7 @@ Bu projenin bize getireceği ikinci önemli sorumluluk ise tıpkı bir drone sat
 ### 5. Satış Sonrası Servis
 Drone'ların seri üretimden çıkıp satıldıktan sonra devamlı bakım ve onarımlarının yapılması gerekir. Bu noktada ciddi bir yatırım ve iş bölümü daha açılması gerekir.
 Seri üretimle birlikle çok önemli bir **bakım hizmeti** de sunulması gerekir ve bu başlı başına ayrı bir iş bölümü ihtiyacı anlamına geliyor.
+
 ---
 
 ### 6. Projenin Gelecekteki Seyri
