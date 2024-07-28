@@ -76,7 +76,7 @@ uygun olmamasıdır)
 
 Ana Platform (API) Yazılımı:
 
-> **Müşterilerin ürün siparişi vermeleri, drone'lara emir gitmesi, siparişin teslim edilmesi, iade, müşteri hizmetleri gibi süreçleri yönetmek ve müşteriye kolaylık sağlamak için **Getir**, **Yemeksepeti** gibi bir platform geliştirilecektir. Bu platformun sürdürülebilir olması, scalibility'e uygun olması için backend tarafında kullanılacak mimarinin kapsamlı bir değerlendirmeden sonra seçilmesi gerekmektedir. İhtiyaç halinde şehir içinde kullanım gibi extension'lara da kolaylıkla adapte olabilecek bir yapı olmalıdır.**
+> **Müşterilerin ürün siparişi vermeleri, drone'lara emir gitmesi, siparişin teslim edilmesi, iade, müşteri hizmetleri gibi süreçleri yönetmek ve müşteriye kolaylık sağlamak için **Getir**, **Yemeksepeti** gibi bir platform yazılımı geliştirilecektir. Bu platformun sürdürülebilir olması, scalibility'e uygun olması için backend tarafında kullanılacak mimarinin kapsamlı bir değerlendirmeden sonra seçilmesi gerekmektedir. İhtiyaç halinde şehir içinde kullanım gibi extension'lara da kolaylıkla adapte olabilecek bir yapı olmalıdır.**
 
 Drone'lardaki Gömülü Yazılım:
 
