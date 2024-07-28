@@ -90,6 +90,7 @@ Bu projenin yazılım platformu ve drone'larının tam hazır olduğu varsayıl�
         kullanım oranlarının yüksek olması için müşteri segmentinin yüksek olması gerekir.
 
 Bu projenin bize getireceği ikinci önemli sorumluluk ise tıpkı bir drone satıcısı gibi drone'ları pazarlayacağımız gerçeği. Bu projeyi sadece bir **"proje"** olarak değil aynı zamanda drone tacirliği gibi de ele almak gerekir.
+
 ---
 
 ### 5. Satış Sonrası Servis
