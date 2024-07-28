@@ -7,23 +7,16 @@ birçok proje mevcut. Bu projelerin birçoğu şehir içinde kargo, yemek, içec
 ## Fikir
 Projenin ana fikri, basit bir şekilde **"drone ile otel sahillerinde teslimat"** şeklinde açıklanabilir. Otel sahillerinde müşterilerin gıda taleplerini karşılayan büfe, market tarzı noktalar bulunur. Müşteriler sahilde eşyalarının olduğu yerden bu noktalara yürüyerek gider gelirler. Eğer bir drone ile dağıtım merkezi olsaydı ve ürünler büfeden müşterilerin şezlongta yattığı yere kadar teslim edilebilseydi bu gerçekten tatil konforunu ikiye katlardı diye düşünüyorum.
 
-## Projenin Farklı Açılardan İncelenmesi
-Şimdi proje hakkında temel bir bilgiye sahibiz ve birçok açıdan projenin artı ve eksilerini değerlendirebiliriz. Bu konuları şu şekilde sıralayabiliriz:
-
-Projenin teknik tarafı bittikten sonra:
-1. **Pazarlama:** Otel yönetimi ve müşterilerinin drone hizmeti hakkındaki fikirleri ve talepleri
-2. **Seri Üretim:** Drone'lara bağlı ürünleri servis edecek ayrı bir robotik platform
-3. **Bakım:**: Droneların bakımı için ayrı bir iş bölümü
-
-Projenin teknik tarafı:
-4. **Drone İmalatı:** Drone sıfırdan mı üretilecek yoksa satın mı alınacak?
-5. **Teknik Yazılım:** Dağıtım ağını yönetmek için **Getir**, **Yemeksepeti** gibi bir platformun yazılması
-6. **Teknik Problem:** Drone'ların müşterinin tam yanına gelmesi sorunu
-7. **Teknik Problem:** Drone'ların pisti ve şarjı
-8. **Test:** Drone'ların testi ve test için gerekli alan
-
-İleriye Dönük:
-9. **Projenin gelecekteki seyri:** Proje tamamlandıktan sonra nereye, nasıl evrilebilir?
+## Başlıklar
+1. **Pazarlama**
+2. **Seri Üretim**
+3. **Bakım**
+4. **Drone İmalatı**
+5. **Teknik Yazılım**
+6. **Teknik Problem**
+7. **Teknik Problem**
+8. **Test**
+9. **Projenin gelecekteki seyri**
 
 
 Bu alanları kendi başlıkları altında birer birer incelemeden önce ilerde lazım olabilecek bazı kavramlarının sunumu yapılmalıdır.
