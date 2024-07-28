@@ -23,44 +23,63 @@ Projenin ana fikri, basit bir şekilde **"drone ile otel sahillerinde teslimat"*
 
 ### 1. Prototip Üretim
 
-1.1 **Drone**
+Projenin sunulabilmesi, ortaya çıkacak drone'un incelenebilmesi için yazılımından testlerine kadar her aşaması bitirilmiş bir prototip ürün geliştirilmelidir. Bu ürün, tam anlamınya seri üretime hazır, sürdürülebilir şekilde tasarlanmış olmalıdır.
 
-    
+1.1 **Drone**
+> İlk olarak drone prototipi hazırlanmalıdır. Sırasıyla:
+
+> * Drone'un temel iskeletinin nasıl elde edileceği belirlenmeli (Satın alınma veya sıfırdan üretim)
+
+> * Eğer drone sıfırdan geliştirilecekse dış iskelet ve iç iskeletin ayrı ayrı tasarlanması ve ürettirilmesi gerekektedir.
+
+> * Drone'un yazılımı geliştirilmelidir. Yazılım, uzaktan kumanda edilmesi, pist alanınının otonom şekilde tanınması, geliştirilecek yazılım ile bağlantının kurulması, uçarken otonom güzergâh belirleme ve müşteriye teslimatın sağlanması aşamalarının tamamını içermelidir.
 
 1.2 **Teslimat Ünitesi**
+> İkinci aşamada drone'a bağlı olan ve teslim edilecek ürünlerin taşınacağı bir teslimat ünitesi prototipi tam kullanıma hazır olacak şekilde üretilmelidir. Bu ünite üretilirken:
 
+> * Ürünlerin teslimat sırasında sarsılmaması ve kırılmaması ve içeceklerin dökülmemesi,
+> * Büfe çalışanının kolayca ürünleri yerleştirebilmesi,
+> * Müşterinin ürünleri kolayca teslim alabilmesi,
+> * ana yazılıma bağlanarak authentication işlemini yapabilmesi,
+> * Yağmur, kar, kış gibi etkenlere dayanıklı olması
+
+> gibi özelliklere sahip olmalıdır.
     
 
 1.3 **Test**
 
-    Bu raporda bahsedilen tüm bu teknik geliştirmelerin test edilmesi çok önemlidir. 
-    Bunun için test alanı, test uzmanı (test alanında tecrübeli) kişi ve bolca zaman gerekmektedir.
+> Bu raporda bahsedilen tüm bu teknik geliştirmelerin detaylıca test edilmesi çok önemlidir. Bu testler için bir alan gerekmektedir. Testlerin bolca tekrardan oluşması ve dolayısıyla uzun zaman süreceği de göz önüne alınmalıdır.
 
 1.4 **Kritikler**
 
-    Müşteri ürünü sipariş ettiğinde Drone GPS ile müşterinin yakınına gelebilir ancak GPS 
-    sinyalleri her zaman tam nokta belirtmez. Bu yüzden drone'un müşteriyi bulması gerekir. 
-    Bu noktada birkaç çözüm önerisi var:
+> Müşteri ürünü sipariş ettiğinde Drone GPS ile müşterinin yakınına gelebilir ancak GPS 
+sinyalleri her zaman tam nokta belirtmez. Bu yüzden drone'un müşteriyi bulması gerekir. 
+Bu noktada birkaç çözüm önerisi var:
 
-    - Drone, müşterinin telefonundaki uygulama aracılığıyla manuel olarak müşteri
-    tarafından yönlendirilerek teslimat sağlanabilir.
-    - Drone, yapay zeka ile müşterinin yüzünü tanıyarak ürün teslimatını yapabilir
-    - Drone, müşteriye otel girişinde verilecek bilekliklerde bulunan bir sensör 
-    sayesinde müşteriyi bulabilir ( bunun en büyük dezavantajı otel dışında kullanıma
-    uygun olmamasıdır )
+> * Drone, müşterinin telefonundaki uygulama aracılığıyla manuel olarak müşteri
+tarafından yönlendirilerek teslimat sağlanabilir. (Burada müşteri kaynaklı bir arıza veya kaza olması durumunda sıkıntı oluşabilir)
+> * Drone, yapay zeka ile müşterinin yüzünü tanıyarak ürün teslimatını yapabilir.
+> * Drone, müşteriye otel girişinde verilecek bilekliklerde bulunan bir sensör 
+sayesinde müşteriyi bulabilir. (bunun en büyük dezavantajı otel dışında kullanıma
+uygun olmamasıdır)
 
-    Drone'ların şarj olacakları ve siparişleri teslim alabilecekleri bir pist alanına
-    ihtiyaç duyulacaktır. 
+> Drone'ların şarj olacakları ve siparişleri teslim alabilecekleri bir piste ihtiyaç duyulacaktır.
 
-    - Pist, yağmur, rüzgar, kar gibi etkenlere karşı korunaklı olmalıdır
-    - Pist, büfe'deki çalışanların kolaylıkla ulaşabileceği yakınlıkta olmalıdır (Bu, müşteri yoğunluğunun çok olduğu dönemlerde oldukça önem arz edecektir)
-    - Pist, şarj istasyonlarına uygun tasarlanmalıdır
-    - Drone'lar otonom olarak pisti bulabilmeli ve otonoö şekilde piste iniş kalkış yapabilmelidir
+> * Pist, yağmur, rüzgar, kar gibi etkenlere karşı korunaklı olmalıdır.
+> * Pist, büfe'deki çalışanların kolaylıkla ulaşabileceği yakınlıkta olmalıdır. (Bu, müşteri yoğunluğunun çok olduğu dönemlerde oldukça önem arz edecektir)
+> * Pist, şarj istasyonlarına uygun tasarlanmalıdır.
+> * Drone'lar otonom olarak pisti bulabilmeli ve otonoö şekilde piste iniş kalkış yapabilmelidir.
 
 ---
 
 ### 2. Yazılım
-Müşterilerin ürün siparişi vermeleri, drone'lara emir gitmesi, siparişin teslim edilmesi, iade, müşteri hizmetleri gibi süreçleri yönetmek ve müşteriye kolaylık sağlamak için **Getir**, **Yemeksepeti** gibi bir platform geliştirilecektir. Bu platformun sürdürülebilir olması, ölçeklendirmeye uygun olması için backend tarafında kullanılacak mimarinin kapsamlı bir değerlendirmeden sonra seçilmesi gerekmektedir.
+
+Ana Platform:
+
+> Müşterilerin ürün siparişi vermeleri, drone'lara emir gitmesi, siparişin teslim edilmesi, iade, müşteri hizmetleri gibi süreçleri yönetmek ve müşteriye kolaylık sağlamak için **Getir**, **Yemeksepeti** gibi bir platform geliştirilecektir. Bu platformun sürdürülebilir olması, ölçeklendirmeye uygun olması için backend tarafında kullanılacak mimarinin kapsamlı bir değerlendirmeden sonra seçilmesi gerekmektedir.
+
+Drone'lara Gömülü Yazılım:
+> 
 
 ---
 
@@ -77,24 +96,23 @@ Bu projenin yazılım platformu ve drone'larının tam hazır olduğu varsayıl�
 
 1.1 **Projenin Yeni Müşteriler Kazandırma Potansiyeli**
 
-        Otel yönetimi, projeyi bir reklam aracı olarak görüp kullanmak isteyebilir. bu durumda hem drone 
-        sistemininin otele entegre edilmesi, bakımı gibi ücretleri karşılayıp hem de bunları kâra dönüştürmesi
-        gereken otel müşteri çekmek için bu projeyi reklam aracı olarak kullanabilir. 
+> Oteller müşteri çekebilmek için farklı reklam stratejileri izleyebilirler. Bu durumda bizim projemiz bir reklam aracı olarak kullanılabilir. Örneğin "Drone ile Ayağınıza Teslimat" gibi reklam kampanyaları ile daha fazla müşteri toplama yoluna gidilebilir.
 
-1.2 **Projenin Otel Satışlarını ve Karlılığını Artırma Kapasitesi**
+1.2 **Projenin Otel Satışlarını ve Karlılığını Artırma Potansiyeli**
 
-        Otel yönetimi, projeyi kar elde etme aracı olarak görebilir ve yatırımını titizlikle yapar.
-        Bu durumda drone'un sahillerde kullanılması bir ücretlendirmeye tâbi tutulacağından drone'ların 
-        kullanım oranlarının yüksek olması için müşteri segmentinin yüksek olması gerekir.
+> Otel, projeyi kar elde etme aracı olarak görebilir ve yatırımını titizlikle yapar. Bu durumda drone'un sahillerde kullanılması bir ücretlendirmeye tâbi tutulacağından drone'ların kullanım oranlarının yüksek olması için müşteri segmentinin yüksek olması gerekir. Yani eğer otel yüksek fiyat segmentli ise yüksek ihtimalle bu yolu kullanarak kâr elde edecektir.
 
-Bu projenin bize getireceği ikinci önemli sorumluluk ise tıpkı bir drone satıcısı gibi drone'ları pazarlayacağımız gerçeği. Bu projeyi sadece bir **"proje"** olarak değil aynı zamanda drone tacirliği gibi de ele almak gerekir.
+Başka bir açıdan incelendiğinde proje sadece kendisini pazarlama aracı olarak kullanmaz. Drone'ların otellere satılması, satış sonrası servisler de bu işin bir başka ekonomik boyutunu ve kâr elde etme yolunu bize gösterir.
 
 ---
 
 ### 5. Satış Sonrası Servis
-Drone'ların seri üretimden çıkıp satıldıktan sonra devamlı bakım ve onarımlarının yapılması gerekir. Bu noktada ciddi bir yatırım ve iş bölümü daha açılması gerekir.
-Seri üretimle birlikle çok önemli bir **bakım hizmeti** de sunulması gerekir ve bu başlı başına ayrı bir iş bölümü ihtiyacı anlamına geliyor.
+Drone'ların seri üretimden çıkıp satıldıktan sonra devamlı bakım ve onarımlarının yapılması gerekir. Bu noktada ciddi bir yatırım gerekecektir.
+Seri üretimle birlikle **bakım hizmeti**, başlı başına ayrı bir **"iş bölümü"** ihtiyacı anlamına da geliyor.
 
 ---
 
 ### 6. Projenin Gelecekteki Seyri
+1. Proje, doğası gereği drone'ları tam hakimiyet ile yönetebilmeyi gerektirmektedir. Bu beceriye sahip bir işletme ise yeni sahillere açılabilme ve işi büyütebilme avantajına sahiptir. Sadece Türkiye'de bir sürü sahil bulunmakta ve bu da bir sürü müşteri anlamına gelmektedir.
+
+2. Drone'lar, başarılı testler sonucunda şehir içi teslimat için de kullanılabilir. Proje, ileride bu yönde de genişleme gösterebilecek bir potansiyele sahiptir.
