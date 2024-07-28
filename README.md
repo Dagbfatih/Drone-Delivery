@@ -19,6 +19,8 @@ Projenin ana fikri, basit bir şekilde **"drone ile otel sahillerinde teslimat"*
 5. **Satış Sonrası Servis**
 6. **Projenin gelecekteki seyri**
 
+---
+
 ### 1. Prototip Üretim
 
 1.1 **Drone**
