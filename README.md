@@ -1,6 +1,6 @@
-# Sahillerde Drone ile Teslimat Projesi
-
 Proje sunumu için: [Powerpoint Sunum](https://github.com/Dagbfatih/Drone-Delivery/raw/main/DroneProjeSunum.pptx)
+
+# Sahillerde Drone ile Teslimat Projesi
 
 ## Giriş
 Günümüzde drone'lar ile yapılan ve bazı ülkelerde testleri halen devam etmekte olan
