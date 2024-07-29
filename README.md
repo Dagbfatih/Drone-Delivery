@@ -1,5 +1,7 @@
 # Sahillerde Drone ile Teslimat Projesi
 
+Proje sunumu için: [Powerpoint Sunum](https://github.com/Dagbfatih/Drone-Delivery/raw/main/DroneProjeSunum.pptx)
+
 ## Giriş
 Günümüzde drone'lar ile yapılan ve bazı ülkelerde testleri halen devam etmekte olan
 birçok proje mevcut. Bu projelerin birçoğu şehir içinde kargo, yemek, içecek, gıda ürünleri vb. ürünleri teslimat için tasarlanmıştır. Bu konseptte drone projelerinin gelişimi ve test aşamaları oldukça zor ve maliyetlidir. Drone'ların bakımı, satın alınıp modifiye edilmesi, gömülü yazılımları ve eğer varsa yapay zeka modellerini üretmek zaten ciddi bir yatırım ve zaman ister. Bunun yanında şehir içinde elektrik tellerinden düzensiz ve birbirinden alakasız yapılanmalara kadar birçok engel drone'ların bozulmasına neden olur. Test aşamalarının sivillerin güvenliği dikkate alınarak yapılması ise apayrı bir zorluktur. Bu proje, fikir aşamasında olmakta olup yukarıdaki birçok riski içermez veya önemli ölçüde az içerir ve birçok zorluğu daha hızlı çözüme kavuşturabilme kapasitesine sahiptir.
